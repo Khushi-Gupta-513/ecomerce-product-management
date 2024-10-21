@@ -8,8 +8,8 @@ Additionally, the system allows users to add new products dynamically to the pro
 
 ## Features
 
-1. Dynamic Price Updates**: The price of the product is updated automatically when a user selects a size from the dropdown.
-2. Stock Availability**: The system displays stock availability for each size. If out of stock, the purchase button is disabled.
-3. Purchase Confirmation**: Upon clicking the purchase button, a message confirms the purchase if the item is in stock or indicates it is out of stock.
-4. Add New Products**: Users can add new products to the list via a form. Newly added products are fully interactive due to event delegation.
+1. Dynamic Price Updates: The price of the product is updated automatically when a user selects a size from the dropdown.
+2. Stock Availability: The system displays stock availability for each size. If out of stock, the purchase button is disabled.
+3. Purchase Confirmation: Upon clicking the purchase button, a message confirms the purchase if the item is in stock or indicates it is out of stock.
+4. Add New Products: Users can add new products to the list via a form. Newly added products are fully interactive due to event delegation.
 
