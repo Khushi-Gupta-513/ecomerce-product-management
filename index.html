@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+</head>
+<body>
+    <!-- Product information section -->
+    <h2 id="product-name">Sample Product</h2>
+    <p id="product-price">$100</p>
+    
+    <!-- Dropdown to select product size -->
+    <label for="size">Select Size:</label>
+    <select id="size">
+        <option value="small">Small: In Stock</option>
+        <option value="medium">Medium: In Stock</option>
+        <option value="large">Large: Out of Stock</option>
+    </select>
+
+    <!-- Button to purchase the product -->
+    <button id="purchase-btn">Purchase</button>
+
+    <!-- Form to add new products dynamically -->
+    <h3>Add New Product</h3>
+    <form id="add-product-form">
+        <input type="text" id="new-product-name" placeholder="Product Name" required>
+        <input type="number" id="new-product-price" placeholder="Product Price" required>
+        <select id="new-product-size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+        <button type="submit">Add Product</button>
+    </form>
+
+    <!-- List to display newly added products -->
+    <h3>Product List</h3>
+    <ul id="product-list"></ul>
+
+    <!-- Link to external JavaScript file -->
+    <script src="main.js"></script>
+</body>
+</html>
+
